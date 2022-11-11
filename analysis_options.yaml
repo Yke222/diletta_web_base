@@ -1,0 +1,19 @@
+include: package:very_good_analysis/analysis_options.3.1.0.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+analyzer:
+  errors:
+    implicit_dynamic_parameter: info
+  exclude:
+    - "**.g.dart"
+    - "**/test/**"
+    - "**.freezed.dart"
+    - "**.chopper.dart"
+    - "**.generated.dart"
+    - ".dart_tool/**"
+    - ".packages"
+    - "build/**"
+    - "pubspec.lock"
+    - ".flutter-plugins"
+    - ".flutter-plugins-dependencies"
